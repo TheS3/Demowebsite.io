@@ -1,6 +1,7 @@
 
 .write{
     text-align: center;
+    justify-content: center;
 }
 .moto{
     width:90%;
@@ -9,30 +10,30 @@
     border: 2px solid rgb(106, 105, 105, 1);
     border-radius: 20px;
     padding: 50px 20px;
-    margin: 40px 60px;
+    margin: 7% 4%;
     text-align: center;
     min-height: 150px;
 }
 .fpd{
-    margin-top: 150px;
-    margin-left: 100px;
+    margin: 5%  7%;
+    
 }
 .fpd h2{
-    margin: 20px;
+    margin: 7% 0px;
     font-weight: 500;
     font-family: "Noto Sans",sans-serif;
     color: brown;
     text-decoration: underline;
 }
 .fpd img{
-    margin-top: 100px;
+    margin-top: 40%;
     box-shadow: none;
     border: 5px solid brown;
     margin-left: 0;
 }
 .gallery{
     justify-content: center;
-    margin: 50px 20px;
+    margin: 5% 0%;
 }
 .gallery h2,.toppers h2{
     color: brown;
@@ -54,9 +55,17 @@
     min-height: 300px;
     max-height: 300px;
 }
+@media(max-width:990px){
+    .gallery .cards img {
+        min-width: 180px;
+        max-width: 180px;
+        min-height: 180px;
+        max-height: 180px;
+    }
+}
 
 .gallery img {
-    margin:  20px 40px;
+    margin:  10% 25px;
     border: 4px solid rgb(106, 105, 105, 0);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 0px rgba(54, 54, 54, 0.7), 0px 10px 10px 0px rgba(54, 54, 54, 0.7);
