@@ -155,7 +155,6 @@ body {
 .content {
     margin-top: 150px;
     padding: 20px 90px;
-    background-image: linear-gradient(rgb(233, 247, 253), rgb(204, 233, 248));;
     min-height: 50vh;
 }
 .cntct h5 p b{
@@ -184,7 +183,7 @@ body {
     margin-bottom: 25px;
     padding: 10px;
     text-align: center;
-    background-color: rgba(233, 168, 46, 0.7);
+    background-color: rgba(25, 231, 46, 0.7);
 }
 
 .write p {
@@ -205,7 +204,7 @@ body {
 }
 
 .write img {
-    box-shadow: 0px 0px 8px 8px rgba(0, 217, 90, 0.7);
+    box-shadow: none;
     max-height: 300px;
     max-width: 70%;
     margin-bottom: 20px;
